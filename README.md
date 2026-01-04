@@ -7,8 +7,8 @@ Features
 --------
 
 * **Live Streaming:** Uses SSH-based tail commands to stream logs instantly.
-* **Multi-Server Tabs:** Independent, non-blocking tabs for each configured server.
-* **Visual Alerts:** High-visibility red highlighting for IP ban events.
+* **Multi-Server Tabs:** Independent tabs for each configured server.
+* **Visual Alerts:** Red highlighting for IP ban events.
 * **Persistent Configuration:** Integrated Settings tab to Manage (Add/Edit/Delete) servers via `servers.json`.
 * **Session History:** Retrieves the last 500 lines upon connection to capture offline activity.
 * **Log Export:** Export current session data to local text files.
@@ -36,7 +36,7 @@ On Solus Install the Python environment, Pip package manager, and the Tkinter GU
 
 ### 2\. Remote Server Setup (Security and Permissions)
 
-Fail2ban logs are typically restricted to the root user. Follow these steps to allow a standard user (e.g., adam) to monitor logs securely.
+Fail2ban logs are typically restricted to the root user. Follow these steps to allow a standard user to monitor logs securely.
 
 #### A. Grant Permissions via Groups
 
